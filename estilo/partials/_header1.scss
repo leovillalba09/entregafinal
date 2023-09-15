@@ -1,0 +1,56 @@
+.bienvenidos{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   font-size: 50px;
+   color: rgb(132, 0, 0);
+   .slide-in-blurred-top-webkit-animation:slide-in-blurred-top .6s cubic-bezier(.23,1.000,.32,1.000) both;animation:slide-in-blurred-top .6s cubic-bezier(.23,1.000,.32,1.000) both;
+
+   .subtitulo{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   color: rgb(132, 0, 0);
+   font-size: 40px;
+        animation: focus-in-contract 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;
+    }
+
+    .opciones{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 4rem;
+        -webkit-animation:puff-in-bottom .7s cubic-bezier(.47,0.000,.745,.715) 2s both;animation:puff-in-bottom .7s cubic-bezier(.47,0.000,.745,.715) 2s both;
+
+        .opcion__gafas:hover{
+            transform: scale(1.1);
+            transition: 1s;
+            
+          }
+        
+         
+        
+          .opcion__reloj:hover{
+            transform: scale(1.1);
+            transition: 1s;
+          }
+        
+        
+           .opcion__bolsos:hover{
+            transform: scale(1.1);
+            transition:  1s;
+            
+            
+          }
+        
+        
+          .opcion__gorros:hover{
+            transform: scale(1.1);
+            transition: 1s;
+          
+          }
+      
+       }
+    }

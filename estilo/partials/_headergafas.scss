@@ -1,0 +1,16 @@
+.titulodegafas{
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    color: rgb(132, 0, 0);
+    .slide-in-blurred-top-webkit-animation:slide-in-blurred-top .6s cubic-bezier(.23,1.000,.32,1.000) both;animation:slide-in-blurred-top .6s cubic-bezier(.23,1.000,.32,1.000) both
+     }
+     .pulsarlentes{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:row;
+        justify-content: space-around;
+        text-align: center;
+        -webkit-animation:swing-in-top-fwd .5s cubic-bezier(.175,.885,.32,1.275) 1s both;animation:swing-in-top-fwd .5s cubic-bezier(.175,.885,.32,1.275) 1s both
+        
+      }

@@ -1,0 +1,38 @@
+.footer{
+    background-image: url(../images/logo.png);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:flex-start;
+    gap: 2rem;
+    padding: 20px;
+   
+    .footer-tarjeta{
+
+
+        display: flex;
+        align-items:center;
+       overflow: hidden;
+       border-radius: 100%;
+       position: relative;   
+       transition: all 1s;
+       margin-bottom: 10px;
+       margin-top: 20px;
+       
+          
+      }
+      
+       
+      
+      
+      .footer-imagen{
+        width: 30px;
+        height: 30px;
+        
+      }
+      
+      .footer-tarjeta:hover{
+        transition: 1s;
+        transform: scale(2);
+      }
+  }

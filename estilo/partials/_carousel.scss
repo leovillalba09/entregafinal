@@ -1,0 +1,25 @@
+.carousel-inner{
+    -webkit-animation:flicker-in-1 2s linear 1s both;animation:flicker-in-1 2s linear 1s both;
+    
+    .carousel-inner {
+        height: 70%;
+        width: 70%;
+        margin: 0 auto;
+       }
+      .carousel-item{
+        height: 100%;
+      
+      }
+      
+      .d-block{
+        height: 65vh;
+        filter: brightness(0.6);
+      }
+      
+        .btn{
+          width: 100px;
+          height: 100px;
+          
+          
+        }
+  }
